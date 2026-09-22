@@ -8,7 +8,7 @@
 int main() {
     bn::core::init();
 
-    bn::backdrop::set_color(bn::color(31, 0, 0));
+    bn::backdrop::set_color(bn::color(0, 99, 182));
 
     auto dot = bn::sprite_items::dot.create_sprite(0, 0);
 
